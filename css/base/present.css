@@ -1,0 +1,70 @@
+
+.header__present{
+    z-index: 10;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background: rgb(71,65,140);
+    background: linear-gradient(90deg, rgba(71,65,140,1) 0%, rgba(84,68,140,1) 49%, rgba(116,76,155,1) 100%);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.present__section{
+    margin-top: 4em;
+    height: 500px;
+    width: 100%;
+    height: 500px;
+}
+
+.present__h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-top: 150px;
+}
+
+.present__h2{
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.present__buttom{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    background: black;
+    color: white;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 0.25em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.present__buttom:hover{
+    background: rgba(0, 0, 0, 0.705);
+}
+
+.present__buttom:active{
+    background: rgba(0, 0, 0, 0.600)
+}
+
+.present__ola{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .present__h1{
+        font-size: 2.5em;
+    }
+
+    .present__h2{
+        font-size: 1.2em;
+    }
+}

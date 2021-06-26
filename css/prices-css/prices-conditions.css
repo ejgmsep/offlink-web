@@ -1,0 +1,35 @@
+.precios__text1{
+    margin-top: -5px;
+    font-weight: 700 ;
+}
+
+.precios__text2{
+    text-align: center;
+    color: #553982;
+    font-weight: 700;
+}
+.condiciones__p{
+    color: #553982;
+}
+
+.condiones_li-color{
+    color: #553982;
+    font-weight: 700;
+}
+
+.condiciones__li{
+    list-style: none;
+    position: relative;
+}
+
+.condiciones__li::before{
+    content:"\f14a";
+	font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: -20px;
+    color: #413f89;
+}
+
+.condiciones__text2{
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+@import url(/css/base/nav.css);
+@import url(/css/base/header.css);
+@import url(/css/base/present.css);
+@import url(/css/base/main.css);
+@import url(/css/base/cards.css);
+@import url(/css/base/contact-cards.css);
+@import url(/css/base/footer.css);
+/* PRICES PAGES */
+@import url(/css/prices-css/prices-main.css);
+@import url(/css/prices-css/prices-cards.css);
+@import url(/css/prices-css/prices-conditions.css);
+/* FAQ PAGES */
+@import url(/css/faq-css/faq-main.css);
+/* ABOUT PAGES */
+@import url(/css/about-css/about.css);
+/* CONTACT PAGES */
+@import url(/css/contact-css/contact-main.css);
+.contenedor {
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "header header header"
+    "present present present"
+    "main main main"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* width: 90%;
+max-width: 1200px;
+margin: 20px auto; */

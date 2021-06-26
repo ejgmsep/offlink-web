@@ -1,0 +1,42 @@
+.contacto__cads{
+    display: flex;
+    flex-wrap: Wrap;
+    Justify-content:center;
+    margin-bottom: 50px;
+}
+
+.conecto__card{
+    width: 350px;
+    height: 200px;
+    align-content: center;
+}
+
+.contacto__h6{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.contacto__img{
+    margin: auto;
+    display: block;
+}
+
+.img__gmail{
+    height: 100px;
+    width: 100px;
+}
+
+.contacto__img:hover{
+    opacity: 0.9
+}
+.contacto__img:active{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 800px) {
+	.conecto__card{
+        margin-top: -5px;
+        
+    }
+}

@@ -1,0 +1,89 @@
+.precios__flexbox-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.precios__card {
+  width: 350px;
+  height: 270px;
+  margin-bottom: 10px;
+  border: 0.1px solid #d8d8d8;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.precios__pack{
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #47a7eb;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.pack-color-1{
+    color: #41a85f;
+}
+
+.pack-color-2{
+    color: #00a885;
+}
+
+
+.pack-color-3{
+    color: #427bba;
+}
+
+.precios__precio{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.precio-color1{
+    color: #41a85f;
+}
+
+.precio-color2{
+        color:#00a885;
+}
+
+.precio-color3{
+    color: #427bba;
+}
+
+.precios__enlaces{
+    text-align: center;
+}
+
+.enlaces-color1{
+    color: #41a85f;
+}
+
+.enlaces-color2{
+    color:#00a885;
+
+}
+
+.enlaces-color3{
+    color: #427bba;
+
+}
+
+.precios__li{
+    list-style: none;
+    position: relative;
+}
+
+.precios__li::before{
+    content:"\f14a";
+	font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: -20px;
+    color: #413f89;
+}
+

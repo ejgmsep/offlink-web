@@ -1,0 +1,18 @@
+.section__prince-h1, .section__prince-p, .section__precios-h2,.section__precios-h3{
+    text-align: center;
+}
+
+
+.section__precios-h2{
+    font-size: 2em;
+}
+
+.section__precios-h3{
+    font-size: 1.5em;
+}
+
+.precios__img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}

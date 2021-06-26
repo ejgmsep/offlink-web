@@ -1,0 +1,66 @@
+
+.header__present-about{
+    z-index: 10;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    background: url(/assets/images/conocenos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main__section-about{
+    position: relative;
+}
+
+.present__h1-about{
+    color: #282829;
+    text-transform: uppercase;
+    margin-top: 160px;
+    font-size: 3.5em;
+}
+
+.main__section-about-h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.main__p-about-1, .main__p-about-2, .main__p-about {
+    text-align: justify;
+}
+
+.main-buttom-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 50px auto;
+    margin-bottom: 100px;
+    padding: 1em;
+    width: 177px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #07B0F8;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+.main-buttom-about:hover{
+    background: #07b0f8b2;
+}
+
+.main-buttom-about:active{
+    background: #07b0f883;
+}
+
+@media screen and (max-width: 600px){
+    .main-buttom-about{
+        margin-bottom: 150px
+    }
+}

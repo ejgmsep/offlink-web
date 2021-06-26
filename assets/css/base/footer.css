@@ -1,0 +1,119 @@
+footer {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer__div {
+  display: grid;
+  background-color: #1a1a1a;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  color: #fff;
+  width: 100%;
+}
+
+/* Footer elimnar estilos de listas y Enlaces */
+
+.footer__ul {
+  list-style: none;
+}
+
+.footer__a-social-media,
+.footer_anchor-politicas {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/* Footer Social Media */
+
+.footer__div-social-media-h6 {
+  position: relative;
+  left: -30px;
+  font-size: 1.1em;
+}
+
+.footer__li {
+  margin-left: -35px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Footer Politicas de privacidad */
+
+.footer__div-politicas-de-privacidad {
+  grid-column: 1/-1;
+  background-color: #070707;
+  width: 100%;
+}
+
+.footer-ul-politicas {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.li-politicas {
+  list-style: none;
+  margin-left: 50px;
+  line-height: 50px;
+  min-width: 158;
+}
+
+.footer__li-politicas {
+  list-style: none;
+  line-height: 50px;
+}
+
+/* Iconos de Footer */
+
+.twitter {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+
+.facebook {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+
+.telefono {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+
+.correo {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-ul-politicas {
+    display: block;
+  }
+
+  .footer-ul-politica {
+    flex-direction: row;
+  }
+
+  .li-politicas {
+    margin-left: 0;
+  }
+
+  .footer__div-social-media-h6 {
+    left: 0;
+  }
+}
+
+/* content:"\f14a";
+font-family: 'Font Awesome 5 Free';
+position: absolute;
+left: 15px;
+color: #413f89; */
